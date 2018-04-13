@@ -5,20 +5,22 @@ import './AboutMe.css';
 class AboutMe extends Component {
   render() {
     return (
-      <div className="aboutme-frame">
+      <div className="about-me-frame">
         <div className="section-title">
 
           <h1>About Me</h1>
         </div>
-        <Grid className="aboutme">
+        <Grid className="about-me">
           <Row>
-            <Col xs={12} md={6} className="aboutme-text">
-              <p>Bacon ipsum dolor amet fatback sausage boudin ground round cow spare ribs alcatra turducken prosciutto turkey cupim tri-tip tenderloin landjaeger. Turkey venison leberkas jowl buffalo. Shank tenderloin boudin frankfurter tri-tip short ribs spare ribs turducken venison, cow alcatra. T-bone porchetta ham hock, picanha tenderloin corned beef shoulder.</p>
-
-              <p>Pork pancetta chuck frankfurter strip steak. Pancetta burgdoggen fatback, kielbasa pork belly meatball short loin ham hamburger boudin chuck frankfurter andouille. Jowl fatback flank t-bone, salami alcatra tail pastrami frankfurter jerky burgdoggen meatloaf pork belly. Shoulder jowl ball tip, biltong venison beef pancetta sausage corned beef strip steak spare ribs pork chop turducken beef ribs. Ham hock cupim biltong chicken doner beef ribs shankle andouille short ribs alcatra corned beef filet mignon.</p>
+            <Col xs={12} md={6} className="about-me-text">
+              <p>My name is Patrick McDonagh. I'm an engineer living in Kansas City, MO. For as long as I can remember, I've always been fascinated with finding out how things work. Whether it was taking apart an old VCR, tinkering with a pair of speakers, or building an iPod radio transmitter that would have made the FCC quite upset, I've always had the itch to tinker. In my quest for figuring out how things work, I earned a Bachelor of Science in Electrical Engineering from the University of Missouri.</p>
+              <br />
+              <p>I pride myself on being a perpetual learner, a self-starter, and a mentor to less-experienced engineers. I value quickly creating solutions, but at the same time ensuring that I produce the best results, envisioning all possible scenarios. I’m not afraid to jump head-first into a new framework or language in order to create the best possible solution. I work hard to make sure I stay actively engaged in both my work and my personal development.</p>
+              <br />
+              <p>Although I love what I do at work, I rather enjoy my life outside of work. I'm an avid musician, always finding time to strum a few chords on guitar, tickle the keys of a piano, or try to carry a tune singing. In my younger days, I even played in a band with a repertoire that mostly consisted of Greenday, Incubus, and AC/DC covers. When the weather is nice, I enjoy watersports, especially the ones like wakesurfing that don't hurt as much. My wonderful wife and I have a grump of a goldendoodle who loves his walks and swim sessions. You can usually find the three of us on a patio in the sun enjoying a good craft beer and each other's company!</p>
             </Col>
 
-            <Col xs={12} md={6} className="aboutme-image">
+            <Col xs={12} md={6} className="about-me-image">
               <Image src="pic_of_me.jpg" rounded responsive />
             </Col>
 

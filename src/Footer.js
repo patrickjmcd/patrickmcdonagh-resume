@@ -14,11 +14,11 @@ class Footer extends Component {
             </Col>
 
             <Col xs={12} md={4} className="contact-github">
-
+              <p>Check out the source code for this site on <a href="https://github.com/patrickjmcd/patrickmcdonagh-resume">Github</a>!</p>
             </Col>
 
             <Col xs={12} md={4} className="footer-source">
-              <p>Check out the source code for this site on <a href="https://github.com/patrickjmcd/patrickmcdonagh-resume">Github</a>!</p>
+              
             </Col>
 
 
