@@ -11,17 +11,17 @@ COLOR SCHEME:
   background-color: #071E22;
 } */
 
-body{
-  background-image: url("coffee-beans.jpg");
-  background-attachment: fixed;
-  background-position: center;
+body {
+    background-image: url("coffee-beans.jpg");
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .section-title {
-  text-align: center;
-  padding:10px 0;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .section-title h1 {
-  font-size: 3.5em;
+    font-size: 3.5em;
 }

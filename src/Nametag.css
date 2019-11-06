@@ -3,17 +3,18 @@
 } */
 
 .nametag-frame {
-      text-align: center;
+    text-align: center;
 }
 
 .nametag {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width: 300px; height: 200px;
-    background: #071E22;
+    width: 300px;
+    height: 200px;
+    background: #071e22;
     border-radius: 10px;
-    box-shadow: 1px 2px 5px rgba(0,0,0,.5), inset 0 0 20px rgba(0,0,0,.25);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.25);
     margin: 20px auto;
 }
 .nametag div:first-child {
@@ -23,7 +24,7 @@
     /* font-family: Helvetica, Arial, sans-serif; */
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .2em;
+    letter-spacing: 0.2em;
 }
 
 .name-part {
@@ -33,13 +34,15 @@
     padding-top: 25px;
 }
 .full-name {
-    padding:15px 0px;
+    padding: 15px 0px;
     font-size: 2em;
     font-weight: bold;
 }
 
-.nametag-top h1, .nametag-top p {
-    padding: 0; margin: 0;
+.nametag-top h1,
+.nametag-top p {
+    padding: 0;
+    margin: 0;
 }
 .nametag-top h1 {
     font-size: 2em;
